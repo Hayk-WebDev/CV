@@ -18,15 +18,13 @@ var text = "<ul><li>Address: Tigran Mets ave</li> <li>Mobile: +37499083883</li><
 
 
 var i=0;
-var info="Hi my name is  Hayk";
+var info="Hi,my name is  Hayk";
 
 
-function typing(){
+(function(){
     if(i<text.length){
       document.getElementById("text").innerHTML += info.charAt(i);
         i++;
         setTimeout(typing,50);
     }
-}
-
-typing();
+})();
