@@ -21,10 +21,11 @@ var i=0;
 var info="Hi,my name is  Hayk";
 
 
-(function(){
+function typing(){
     if(i<text.length){
       document.getElementById("text").innerHTML += info.charAt(i);
         i++;
         setTimeout(typing,50);
     }
-})();
+}
+ typing();
