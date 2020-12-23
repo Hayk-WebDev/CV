@@ -1,7 +1,10 @@
-body{background-color: #e0f7ff9e!important;
-    height: 100vh;}
+body{
+    background-color: #e0f7ff9e!important;
+    background:url(../img/bg.png) center;
+    height: 100vh;
+}
 
-.sh{display:none;}
+
 
     #text{
      font-weight:900;
@@ -18,6 +21,18 @@ body{background-color: #e0f7ff9e!important;
         border-radius: 25%;
         background-position: center;
     }
+
+.avatarka:after{ 
+    position: absolute;
+    content: '';
+    top: -2px; bottom: -2px;
+    left: 12px; right: 12px;
+    background: linear-gradient(312deg, rgba(16,230,231,0.865983893557423) 30%, rgba(97,9,121,0.33657212885154064) 64%);
+    z-index: -1;
+    border-radius: 25%;
+    
+}
+
 
     li,.text{
         font-size: 20px;
