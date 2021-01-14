@@ -14,7 +14,7 @@ $(".about").click(function(){
 });
 
 
-var text = "<ul class='mb-5'><li>Address: Tigran Mets ave</li> <li>Mobile: +37499083883</li><li>Languages: Russian-C2, English-B2</li><li>Skills: HTML, CSS, BOOTSTRAP, Javascript, JQuery, Vue, PHP, Laravel, OOP, MySQL.</li><li>Tools and Apps: FileZilla, Git/Github, Atom, Sublime Text, Photoshop</li></ul>";
+var text = "<ul class='mb-3'><li>Address: Tigran Mets ave</li> <li>Mobile: +37499083883</li><li>Languages: Russian-C2, English-B2</li><li>Skills: HTML, CSS, BOOTSTRAP, Javascript, JQuery, Vue, PHP, Laravel, OOP, MySQL.</li><li>Tools and Apps: FileZilla, Git/Github, Atom, Sublime Text, Photoshop</li></ul>";
 
 
 var i=0;
