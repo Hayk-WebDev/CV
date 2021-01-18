@@ -4,6 +4,7 @@ body{
     background:url(../img/bg.png);
     background-position: center;
     background-size:cover;
+   background-color:#bcebf9!important;
 }
 
     #text{
